@@ -30,7 +30,6 @@ void q1p3() {
 }
 
 
-// get a string from user and print the first half recursively
 
 void printFirstHalf(char* start, char* end) {
 	if (strlen(start) - strlen(end) == 1) {
@@ -67,7 +66,7 @@ q2p3() {
 	printFirstHalf(strPtrStart, strPtrEnd);
 }
 
-// print until 100 recursively
+
 q3p3(int num) {
 	
 	printf("%d\t", num);
